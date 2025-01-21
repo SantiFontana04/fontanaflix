@@ -4,9 +4,10 @@ export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 100%;
+  width: 95%;
   max-width: 500px;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 2rem;
   background-color: ${({ theme }) => theme.colors.secondary};
   padding: 2rem;
   border-radius: 8px;

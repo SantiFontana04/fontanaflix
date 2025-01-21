@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const CategoryTitle = styled.h2`
-  width: 25%;
   background-color: ${({ theme, category }) =>
     theme.colors.categoryColors[category]};
   color: #fff;
-  padding: 1rem;
   border-radius: 8px;
+  text-align: center;
+  font-size: 2rem;
 `;
 
 export const VideoList = styled.div`

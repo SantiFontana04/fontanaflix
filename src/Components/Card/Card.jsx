@@ -8,11 +8,13 @@ import {
 
 import { useVideoContext } from "../../Contexts/VideoContext";
 
+
+
 const Card = ({ video }) => {
   const { deleteVideo, updateVideo } = useVideoContext();
 
   const handleEdit = () => {
-    const updatedVideo = { ...video, title: "Nuevo Título" }; // Cambia según lo que necesites
+    const updatedVideo = { ...video, title: "Nuevo Título" };
     updateVideo(video.id, updatedVideo);
   };
 

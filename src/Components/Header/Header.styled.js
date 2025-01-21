@@ -13,6 +13,9 @@ export const LinkNav = styled(NavLink)`
 export const Logo = styled.img`
   height: 3.125rem;
   margin-right: 2rem;
+  @media screen and (max-width: 768px){
+    display: none;
+  }
 `;
 
 export const Nav = styled.nav`
@@ -22,6 +25,9 @@ export const Nav = styled.nav`
   justify-content: space-between;
   padding: 1.5rem 4rem;
   background-color: ${({ theme }) => theme.colors.primary};
+  @media screen and (max-width: 768px){
+    justify-content: center;
+  }
 `;
 
 export const NavContainer = styled.div`

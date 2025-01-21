@@ -3,20 +3,23 @@ import styled from "styled-components";
 export const BannerContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 400px; /* Altura do banner */
+  height: 400px;
 `;
 
 export const BannerBackground = styled.img`
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   filter: brightness(0.5);
 `;
 
 export const BannerImg = styled.img`
-  width: 600px;
+  width: 450px;
   border-radius: 15px;
   box-shadow: 0px 0px 0.75rem 0.25rem #2271d1;
+  object-fit: cover;
+  margin: 50px;
+  max-height: 300px;
 `;
 
 export const BannerContent = styled.div`
